@@ -1,0 +1,58 @@
+.group {
+  flex: 1;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #8f94b476;
+  border-radius: 15px;
+}
+
+.groupInfo {
+ margin-left: 5px;
+}
+
+.table {
+  margin-top: 0.70rem;
+  width: 100%;
+  border-spacing: 0;
+  text-align: left;
+  padding: 5px;
+}
+.thead {
+  background-color: #8f94b4;
+  margin-bottom: 30px;
+}
+
+.tbody {
+  background-color: #8f94b492;
+
+  padding-top: 20px;
+}
+
+.th {
+  font-weight: bold;
+
+  font-size: 16px;
+  padding: 0.5rem;
+}
+
+.td {
+  padding: 0.5rem;
+}
+
+.td:first-child {
+  width: 60%;
+}
+.td:last-child {
+  width: 40%;
+}
+
+.commitAvatar {
+  height: 22px;
+  margin-left: 5px;
+  border-radius: 50%;
+}
+
+.link:hover {
+  color: #0070f3;
+  text-decoration: underline;
+}

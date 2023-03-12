@@ -1,0 +1,20 @@
+.logout {
+  position: absolute;
+  top: 1.5rem;
+  right: 3rem;
+  color: #fff;
+  border: none;
+  padding: 0.4rem 0.8rem 0.45rem 0.8rem;
+  border-radius: 30px;
+  cursor: pointer;
+  z-index: 1;
+  font-size: 14px;
+  background-color: #0071f3b0;
+}
+
+.logout:hover {
+  color: #fff;
+  cursor: pointer;
+  background-color: #0071f3;
+  transition: 0.2s ease-in-out;
+}

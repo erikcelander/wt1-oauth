@@ -1,0 +1,22 @@
+.td {
+  padding: 0.5rem;
+}
+
+.td:first-child {
+  width: 60%;
+}
+
+.td:last-child {
+  width: 40%;
+}
+
+.link:hover {
+  color: #0070f3;
+  text-decoration: underline;
+}
+
+.commitAvatar {
+  height: 22px;
+  margin-left: 5px;
+  border-radius: 50%;
+}

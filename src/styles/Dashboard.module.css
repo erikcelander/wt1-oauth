@@ -1,0 +1,193 @@
+.pageContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+  margin-top: 5px;
+  color: #333;
+}
+
+.signOutButton {
+  position: absolute;
+  top: 1.5rem;
+  right: 3rem;
+  color: #fff;
+  border: none;
+  padding: 0.4rem 0.8rem 0.45rem 0.8rem;
+  border-radius: 30px;
+  cursor: pointer;
+  z-index: 1;
+  font-size: 14px;
+  background-color: #0071f3b0;
+}
+
+.signOutButton:hover {
+  color: #fff;
+  cursor: pointer;
+  background-color: #0071f3;
+  transition: 0.2s ease-in-out;
+}
+
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.name {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.userContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 45px 0 15px 0;
+}
+
+.userInfo {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 20px 0 0;
+}
+
+.userInfo p span {
+  font-weight: bold;
+}
+
+.picture {
+  margin-top: 20px;
+  height: 90px;
+  border-radius: 50%;
+}
+
+
+.groups .group {
+  margin-bottom: 20px;
+}
+
+.groups h3 {
+  margin-bottom: 10px;
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+}
+
+.tabs {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.tabs button {
+  flex-grow: 1;
+}
+
+.tab {
+
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
+  background-color: #0071f377;
+  border-radius: 0.25rem;
+  transition: background-color 0.2s ease-in-out;
+  margin-right: 0.2rem;
+  width: 175px;
+}
+
+.tab:hover,
+.activeTab {
+  background-color: #0070f3;
+
+}
+
+
+.content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+
+.groupList {
+  width: 100%;
+}
+
+.groupContainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.group {
+  flex: 1;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #8f94b476;
+  border-radius: 15px;
+}
+
+.groupInfo {
+ margin-left: 5px;
+}
+
+.table {
+  margin-top: 0.70rem;
+  width: 100%;
+  border-spacing: 0;
+  text-align: left;
+  padding: 5px;
+}
+.thead {
+  background-color: #8f94b4;
+  margin-bottom: 30px;
+}
+
+.tbody {
+  background-color: #8f94b492;
+
+  padding-top: 20px;
+}
+
+.th {
+  font-weight: bold;
+
+  font-size: 16px;
+  padding: 0.5rem;
+}
+
+.td {
+  padding: 0.5rem;
+}
+
+.td:first-child {
+  width: 60%;
+}
+.td:last-child {
+  width: 40%;
+}
+
+.commitAvatar {
+  height: 22px;
+  margin-left: 5px;
+  border-radius: 50%;
+}
+
+.link:hover {
+  color: #0070f3;
+  text-decoration: underline;
+}

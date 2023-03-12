@@ -1,0 +1,54 @@
+
+.activityList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem;
+  text-align: left;
+  background-color: #8f94b476;
+  border-radius: 15px;
+  margin-top: 15px;
+
+}
+
+.activityCount {
+  padding-right: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.activity {
+ text-align: center;
+ padding-right: 10px;
+}
+
+.action {
+  text-align: center;
+  padding-right: 10px;
+}
+
+.date {
+  text-align: center;
+  padding-right: 5px;
+}
+
+.title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 35rem;
+  padding-right: 10px;
+}
+
+.activityList table {
+  border-spacing: 0;
+  padding: 0.25rem;
+  padding-right: 0.6rem;
+  width: 100%;
+}
+
+.activityList tbody {
+  margin-top: 20px;
+  padding: 1rem;
+  font-size: 14px;
+}

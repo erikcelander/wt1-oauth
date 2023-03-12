@@ -1,0 +1,22 @@
+.groupList {
+  width: 100%;
+}
+
+.groupContainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.group {
+  flex: 1;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #8f94b476;
+  border-radius: 15px;
+}
+
+.groupInfo {
+ margin-left: 5px;
+}
